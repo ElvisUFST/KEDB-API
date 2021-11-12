@@ -1,0 +1,47 @@
+
+* {
+    font-family: "Roboto", Times, serif;
+  }
+
+.table_group{
+    width:110px;
+    max-width:15%;
+}
+
+#rapport_table_STIDOrapport td{
+    max-width: 25%;
+    width:25%;
+    padding: 4px 2px;
+}
+
+#print_dok{
+    background-color:#FFFFFF;
+    padding:4px;
+    border:1px solid #064579;
+
+}
+
+.print_table{
+    border-collapse: collapse;
+    
+}
+
+.rubrik-table{
+    min-width: 100%;
+}
+
+.rubrik-data{
+    padding: 4px;
+    border:1px solid #064579;
+    
+}
+
+tr{
+    
+    border:1px solid #064579;
+}
+
+#rubrik-table td {
+    width: 33% ;
+  } 
+

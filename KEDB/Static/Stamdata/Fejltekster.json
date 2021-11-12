@@ -1,0 +1,238 @@
+[
+  {
+    "Tekst": "Toldværdi for lav: tillæg forkert medregnet (royalties, licenser, emballage, knowhow, mæglerhonorar)",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for høj: tillæg forkert medregnet (royalties, licenser, emballage, knowhow, mæglerhonorar)",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: Fejl i varekoden",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: ikke angivet korrekt præferencekode (tilbagebetaling)",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: ikke angivet korrekt præferencekode (tilbagebetaling)",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: anvendt forkert præferencekode",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: ikke fremlagt præferencedokumentation",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: anvendt forkert præferencekode",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: ikke fremlagt præferencedokumentation",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: anvendt forkert procedurekode",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: anvendt forkert præferencekode",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: anvendt forkert procedurekode",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: angivet for lav vægt",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: angivet for høj vægt",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: angivet for lav mængde",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: angivet for høj mængde",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: angivet for lav mængde",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: angivet for høj mængde",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: anvendt forkert præferencedokument-nummer",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: anvendt forkert præferencedokument-kode",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: ikke fremlagt præferencedokumentation",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: anvendt forkert præferencedokument-nummer",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: anvendt forkert præferencedokument-kode",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: ingen fremlagt præferencedokumentation",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for lav: leveringsomkostninger forkert medregnet",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for lav: forkert valuta",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for lav: forkert kurs",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for lav: varens pris forkert",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for høj: leveringsomkostninger forkert medregnet",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for høj: forkert valuta",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for høj: forkert kurs",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for lav: varens pris forkert",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Toldværdi for høj: varens pris forkert",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Forket henvisning til certfikat",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: Fejl i løbenummer (Præf. cert. eller fakturanr.)",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: Stemmer ikke overens med præferencedokumentation",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: Stemmer ikke overens med oprindelsescertifikat",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: Stemmer ikke overens med oprindelsescertifikat",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: Stemmer ikke overens med faktura eller fragtdokumentation",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: Stemmer ikke overens med præferencecertifikat",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: Stemmer ikke overens med faktura eller fragtdokumentation",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: Stemmer ikke overens med faktura eller fragtdokumentation",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: Varekoden omfatter ikke alle varer (mangler vareposter)",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ingen finansiel betydning: Fejl i varekoden",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: Fejl i varekoden",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Forkert varemodtager",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ny fejl",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Forkert møntsort",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ny varekode omfattet af VAB",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Fejlagtigt ikke anført korrekt VAB-bogstav",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Ny varekode omfattet af VAB",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Mulig fejl i varekoden (anvendes kun ved undersøgelse hos fx Force)",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Finansiel betydning: Varekoden omfatter ikke alle varer (mangler vareposter)",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Forkert møntsort",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Beløb for lavt",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Beløb for højt",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "Rubrikken fejlagtigt ikke udfyldt",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "For få vareposter",
+    "Aktiv": true
+  },
+  {
+    "Tekst": "For mange vareposter",
+    "Aktiv": true
+  }
+]

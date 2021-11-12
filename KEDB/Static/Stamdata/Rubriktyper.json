@@ -1,0 +1,119 @@
+[
+  {
+    "Navn": "Statistisk værdi",
+    "Nummer": "46",
+    "Tooltip": "",
+    "XmlTag": "Toldvaerdi_blb"
+  },
+
+  {
+    "Navn": "Toldsted",
+    "Nummer": "0",
+    "Tooltip": "",
+    "XmlTag": "Reg_told_sted"
+  },
+
+  {
+    "Navn": "Præferencedok",
+    "Nummer": "44.4",
+    "Tooltip": "",
+    "XmlTag": "Preaf_dok_kod"
+  },
+
+  {
+    "Navn": "Varebestemmelser",
+    "Nummer": "44.3",
+    "Tooltip": "Varebestemmelser",
+    "XmlTag": "VAB_best"
+  },
+
+  {
+    "Navn": "Certifikat",
+    "Nummer": "44.2",
+    "Tooltip": "",
+    "XmlTag": "Cert_kod"
+  },
+
+  {
+    "Navn": "Varens pris",
+    "Nummer": "42",
+    "Tooltip": "",
+    "XmlTag": "Varens_pris"
+  },
+
+  {
+    "Navn": "Supplerende enheder",
+    "Nummer": "41",
+    "Tooltip": "",
+    "XmlTag": "Suppl_enh"
+  },
+
+  {
+    "Navn": "Nettovægt",
+    "Nummer": "38",
+    "Tooltip": "",
+    "XmlTag": "Netto_vgt"
+  },
+
+  {
+    "Navn": "Procedurekode",
+    "Nummer": "37",
+    "Tooltip": "",
+    "XmlTag": "Proc_kod"
+  },
+
+  {
+    "Navn": "Præferencekode",
+    "Nummer": "36",
+    "Tooltip": "",
+    "XmlTag": "Praef_kod"
+  },
+
+  {
+    "Navn": "Oprindelsesland",
+    "Nummer": "34",
+    "Tooltip": "",
+    "XmlTag": "Opr_land_kod"
+  },
+
+  {
+    "Navn": "Varekode",
+    "Nummer": "33",
+    "Tooltip": "",
+    "XmlTag": "Vare_kod"
+  },
+
+  {
+    "Navn": "Fakturabeløb",
+    "Nummer": "22.2",
+    "Tooltip": "",
+    "XmlTag": "Fakt_blb"
+  },
+
+  {
+    "Navn": "Fakture møntsort",
+    "Nummer": "22.1",
+    "Tooltip": "",
+    "XmlTag": "Fakt_moent_kod"
+  },
+
+  {
+    "Navn": "Værdioplysninger",
+    "Nummer": "12",
+    "Tooltip": "",
+    "XmlTag": "Int_EU_lev_blb"
+  },
+
+  {
+    "Navn": "Vareposter",
+    "Nummer": "5",
+    "Tooltip": "",
+    "XmlTag": "Varepost_ant"
+  },
+  {
+    "Navn": "Toldkontingent",
+    "Nummer": "39",
+    "Tooltip": "",
+    "XmlTag": "ktin_nr"
+  }
+]

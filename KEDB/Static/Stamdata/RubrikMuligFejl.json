@@ -1,0 +1,252 @@
+[
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 1
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 2
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 25
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 26
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 27
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 28
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 29
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 30
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 31
+    },
+    {
+        "RubrikTypeId" : 1,
+        "ProfilId" : 1,
+        "FejltekstId" : 33
+    },
+    {
+        "RubrikTypeId" : 3,
+        "ProfilId" : 1,
+        "FejltekstId" : 19
+    },
+    {
+        "RubrikTypeId" : 3,
+        "ProfilId" : 1,
+        "FejltekstId" : 20
+    },
+    {
+        "RubrikTypeId" : 3,
+        "ProfilId" : 1,
+        "FejltekstId" : 21
+    },
+    {
+        "RubrikTypeId" : 3,
+        "ProfilId" : 1,
+        "FejltekstId" : 22
+    },
+    {
+        "RubrikTypeId" : 3,
+        "ProfilId" : 1,
+        "FejltekstId" : 23
+    },
+    {
+        "RubrikTypeId" : 3,
+        "ProfilId" : 1,
+        "FejltekstId" : 24
+    },
+    {
+        "RubrikTypeId" : 4,
+        "ProfilId" : 1,
+        "FejltekstId" : 49
+    },
+    {
+        "RubrikTypeId" : 4,
+        "ProfilId" : 1,
+        "FejltekstId" : 50
+    },
+    {
+        "RubrikTypeId" : 6,
+        "ProfilId" : 1,
+        "FejltekstId" : 55
+    },
+    {
+        "RubrikTypeId" : 6,
+        "ProfilId" : 1,
+        "FejltekstId" : 56
+    },
+    {
+        "RubrikTypeId" : 7,
+        "ProfilId" : 1,
+        "FejltekstId" : 15
+    },
+    {
+        "RubrikTypeId" : 7,
+        "ProfilId" : 1,
+        "FejltekstId" : 16
+    },
+    {
+        "RubrikTypeId" : 7,
+        "ProfilId" : 1,
+        "FejltekstId" : 17
+    },
+    {
+        "RubrikTypeId" : 7,
+        "ProfilId" : 1,
+        "FejltekstId" : 18
+    },
+    {
+        "RubrikTypeId" : 8,
+        "ProfilId" : 1,
+        "FejltekstId" : 13
+    },
+    {
+        "RubrikTypeId" : 8,
+        "ProfilId" : 1,
+        "FejltekstId" : 14
+    },
+    {
+        "RubrikTypeId" : 9,
+        "ProfilId" : 1,
+        "FejltekstId" : 10
+    },
+    {
+        "RubrikTypeId" : 9,
+        "ProfilId" : 1,
+        "FejltekstId" : 12
+    },
+    {
+        "RubrikTypeId" : 10,
+        "ProfilId" : 1,
+        "FejltekstId" : 4
+    },
+    {
+        "RubrikTypeId" : 10,
+        "ProfilId" : 1,
+        "FejltekstId" : 8
+    },
+    {
+        "RubrikTypeId" : 10,
+        "ProfilId" : 1,
+        "FejltekstId" : 9
+    },
+    {
+        "RubrikTypeId" : 10,
+        "ProfilId" : 1,
+        "FejltekstId" : 11
+    },
+    {
+        "RubrikTypeId" : 10,
+        "ProfilId" : 1,
+        "FejltekstId" : 21
+    },
+    {
+        "RubrikTypeId" : 11,
+        "ProfilId" : 1,
+        "FejltekstId" : 36
+    },
+    {
+        "RubrikTypeId" : 11,
+        "ProfilId" : 1,
+        "FejltekstId" : 37
+    },
+    {
+        "RubrikTypeId" : 11,
+        "ProfilId" : 1,
+        "FejltekstId" : 38
+    },
+    {
+        "RubrikTypeId" : 11,
+        "ProfilId" : 1,
+        "FejltekstId" : 40
+    },
+    {
+        "RubrikTypeId" : 11,
+        "ProfilId" : 1,
+        "FejltekstId" : 41
+    },
+    {
+        "RubrikTypeId" : 11,
+        "ProfilId" : 1,
+        "FejltekstId" : 42
+    },
+    {
+        "RubrikTypeId" : 12,
+        "ProfilId" : 1,
+        "FejltekstId" : 43
+    },
+    {
+        "RubrikTypeId" : 12,
+        "ProfilId" : 1,
+        "FejltekstId" : 44
+    },
+    {
+        "RubrikTypeId" : 12,
+        "ProfilId" : 1,
+        "FejltekstId" : 45
+    },
+    {
+        "RubrikTypeId" : 12,
+        "ProfilId" : 1,
+        "FejltekstId" : 53
+    },
+    {
+        "RubrikTypeId" : 13,
+        "ProfilId" : 1,
+        "FejltekstId" : 55
+    },
+    {
+        "RubrikTypeId" : 13,
+        "ProfilId" : 1,
+        "FejltekstId" : 56
+    },
+    {
+        "RubrikTypeId" : 14,
+        "ProfilId" : 1,
+        "FejltekstId" : 48
+    },
+    {
+        "RubrikTypeId" : 15,
+        "ProfilId" : 1,
+        "FejltekstId" : 55
+    },
+    {
+        "RubrikTypeId" : 15,
+        "ProfilId" : 1,
+        "FejltekstId" : 56
+    },
+    {
+        "RubrikTypeId" : 15,
+        "ProfilId" : 1,
+        "FejltekstId" : 57
+    },
+    {
+        "RubrikTypeId" : 16,
+        "ProfilId" : 1,
+        "FejltekstId" : 58
+    }
+]
