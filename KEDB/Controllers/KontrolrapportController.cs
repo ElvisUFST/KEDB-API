@@ -159,7 +159,7 @@ namespace KEDB.Controllers
             }
 
             await _auditLog.Log(new UserAction(
-                User.Identity.Name,
+                "Elvis",
                 UserActionType.Update,
                 EntityType.Kontrolrapport,
                 id.ToString(),
