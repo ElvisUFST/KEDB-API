@@ -2,7 +2,7 @@
 {
     public class Reguleringer
     {
-        //[JsonProperty("AntalSagerSomHarMedfortReguleringITold")]
+        // [JsonProperty("AntalSagerSomHarMedfortReguleringITold")]
         public int ReguleringCount { get; set; }
 
         public decimal ReguleringTilbagebetalt { get; set; }

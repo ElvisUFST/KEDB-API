@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ToldrapportController : ControllerBase
@@ -21,7 +21,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Toldrapport
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Toldrapport>>> GetToldrapporter()
         {
@@ -31,7 +31,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Toldrapport/5
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{id}")]
         public async Task<ActionResult<Toldrapport>> GetToldrapport(int id)
         {
@@ -46,7 +46,7 @@ namespace KEDB.Controllers
         }
 
         // PUT: api/Toldrapport/5
-        [Authorize(Roles = "kedb-super, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-write")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateToldrapport(int id, Toldrapport toldrapport)
         {
@@ -61,7 +61,7 @@ namespace KEDB.Controllers
         }
 
         // POST: api/Toldrapport
-        [Authorize(Roles = "kedb-super, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-write")]
         [HttpPost]
         public async Task<ActionResult<Toldrapport>> CreateToldrapport(Toldrapport toldrapport)
         {

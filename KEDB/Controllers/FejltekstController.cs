@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class FejltekstController : ControllerBase
@@ -24,7 +24,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Fejltekst
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Fejltekst>>> GetFejltekster()
         {
@@ -39,7 +39,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Fejltekst/5
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{id}")]
         public async Task<ActionResult<Fejltekst>> GetFejltekst(int id)
         {
@@ -54,7 +54,7 @@ namespace KEDB.Controllers
         }
 
         // Put: api/Fejltekst/5
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateFejltekst(int id, Fejltekst fejltekst)
         {
@@ -76,7 +76,7 @@ namespace KEDB.Controllers
         }
 
         // POST: api/Fejltekst
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPost]
         public async Task<ActionResult<Fejltekst>> CreateFejltekst(Fejltekst fejltekst)
         {

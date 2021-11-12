@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class RubrikMuligFejlController : ControllerBase
@@ -21,7 +21,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/RubrikMuligFejl
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<RubrikMuligFejl>>> GetAllRubrikMuligeFejl()
         {
@@ -45,7 +45,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/RubrikMuligFejl/5/5/
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{rubrikTypeId}/{profilId}/{fejltekstId}")]
         public async Task<ActionResult<RubrikMuligFejl>> GetRubrikMuligFejl(int rubrikTypeId, int profilId, int fejltekstId)
         {
@@ -70,7 +70,7 @@ namespace KEDB.Controllers
         }
 
         // PUT: api/RubrikMuligFejl/5/5/5
-        [Authorize(Roles = "kedb-super, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-write")]
         [HttpPut("{rubrikTypeId}/{profilId}/{fejltekstId}")]
         public async Task<IActionResult> UpdateRubrikMuligFejl(int rubrikTypeId, int profilId, int fejltekstId, RubrikMuligFejl rubrikMuligFejl)
         {
@@ -85,7 +85,7 @@ namespace KEDB.Controllers
         }
 
         // POST: api/RubrikMuligFejl
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPost]
         public async Task<ActionResult<RubrikMuligFejl>> CreateRubrikMuligFejl(RubrikMuligFejl rubrikMuligFejl)
         {
@@ -95,7 +95,7 @@ namespace KEDB.Controllers
         }
 
         // DELETE: api/RubrikMuligFejl/5/5/5
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpDelete("{rubrikTypeId}/{profilId}/{fejltekstId}")]
         public async Task<IActionResult> DeleteRubrikMuligFejl(int rubrikTypeId, int profilId, int fejltekstId)
         {

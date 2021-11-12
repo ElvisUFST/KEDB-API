@@ -41,7 +41,7 @@ namespace KEDB.Controllers
         *******/
 
         // GET: api/Kontrolrapport
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("filter/{search}")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Kontrolrapport>>> GetKontrolrapporter([FromQuery] KontrolrapportSearchFilterDto search)
@@ -71,7 +71,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Kontrolrapport
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("Afrapporterede/filter/{search}")]
         [HttpGet("Afrapporterede")]
         public async Task<ActionResult<IEnumerable<Kontrolrapport>>> GetAfrapporteredeKontrolrapporter([FromQuery] KontrolrapportSearchFilterDto search)
@@ -102,7 +102,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Kontrolrapport/5
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{id}")]
         public async Task<ActionResult<KontrolrapportDto>> GetKontrolrapport(int id)
         {
@@ -115,18 +115,11 @@ namespace KEDB.Controllers
 
             var kontrolrapportDto = _mapper.Map<KontrolrapportDto>(kontrolrapport);
 
-            await _auditLog.Log(new UserAction(
-                User.Identity.Name,
-                UserActionType.Read,
-                EntityType.Kontrolrapport,
-                id.ToString(),
-                null));
-
             return Ok(kontrolrapportDto);
         }
 
         // GET: api/Kontrolrapport/Toldsteder
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("Toldsteder")]
         public async Task<ActionResult<IEnumerable<int>>> GetToldsteder()
         {
@@ -143,7 +136,7 @@ namespace KEDB.Controllers
         }
 
         // Put: api/Kontrolrapport/5
-        [Authorize(Roles = "kedb-super, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-write")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateKontrolrapport(int id, KontrolrapportDto kontrolrapportDto)
         {

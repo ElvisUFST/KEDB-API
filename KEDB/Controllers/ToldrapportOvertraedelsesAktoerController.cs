@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ToldrapportOvertraedelsesAktoerController : ControllerBase
@@ -25,7 +25,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/ToldrapportOvertraedelsesAktoer
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ToldrapportOvertraedelsesAktoer>>> GetToldrapportOvertraedelsesAktoerer()
         {
@@ -40,7 +40,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/ToldrapportOvertraedelsesAktoer/5
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{id}")]
         public async Task<ActionResult<ToldrapportOvertraedelsesAktoer>> GetToldrapportOvertraedelsesAktoer(int id)
         {
@@ -55,7 +55,7 @@ namespace KEDB.Controllers
         }
 
         // Put: api/ToldrapportOvertraedelsesAktoer/5
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateToldrapportOvertraedelsesAktoer(int id, ToldrapportOvertraedelsesAktoer toldrapportOvertraedelsesAktoer)
         {
@@ -77,7 +77,7 @@ namespace KEDB.Controllers
         }
 
         // POST: api/ToldrapportOvertraedelsesAktoer
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPost]
         public async Task<ActionResult<ToldrapportOvertraedelsesAktoer>> CreateToldrapportOvertraedelsesAktoer(ToldrapportOvertraedelsesAktoer toldrapportOvertraedelsesAktoer)
         {

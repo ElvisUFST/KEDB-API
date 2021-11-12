@@ -1,6 +1,4 @@
-﻿using Azure.Messaging.EventHubs;
-using Azure.Messaging.EventHubs.Producer;
-using System;
+﻿using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
@@ -9,7 +7,7 @@ namespace KEDB.Audit
 {
     public class AzureEventHubAuditLog : IAuditLog
     {
-        private EventHubProducerClient eventHubClient;
+        //private EventHubProducerClient eventHubClient;
         private readonly JsonSerializerOptions serializationOptions = new JsonSerializerOptions
         {
             Converters =
@@ -18,6 +16,7 @@ namespace KEDB.Audit
             }
         };
 
+        /*
         public AzureEventHubAuditLog(string connectionString)
         {
             if (connectionString == null)
@@ -40,7 +39,7 @@ namespace KEDB.Audit
                 }
             });
         }
-
+        */
         public async Task Log(UserAction userAction)
         {
             if (userAction == null)
@@ -49,8 +48,6 @@ namespace KEDB.Audit
             }
 
             var json = JsonSerializer.Serialize(userAction, serializationOptions);
-            var data = new EventData(System.Text.Encoding.UTF8.GetBytes(json));
-            await eventHubClient.SendAsync(new[] { data });
         }
     }
 

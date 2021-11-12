@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ToldrapportFejlKategoriController : ControllerBase
@@ -24,7 +24,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/ToldrapportFejlKategori
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ToldrapportFejlKategori>>> GetToldrapportFejlKategorier()
         {
@@ -39,7 +39,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/ToldrapportFejlKategori/5
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpGet("{id}")]
         public async Task<ActionResult<ToldrapportFejlKategori>> GetToldrapportFejlKategori(int id)
         {
@@ -54,7 +54,7 @@ namespace KEDB.Controllers
         }
 
         // Put: api/ToldrapportFejlKategori/5
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateToldrapportFejlKategori(int id, ToldrapportFejlKategori toldrapportFejlKategori)
         {
@@ -76,7 +76,7 @@ namespace KEDB.Controllers
         }
 
         // POST: api/ToldrapportFejlKategori
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPost]
         public async Task<ActionResult<ToldrapportFejlKategori>> CreateToldrapportFejlKategori(ToldrapportFejlKategori toldrapportFejlKategori)
         {

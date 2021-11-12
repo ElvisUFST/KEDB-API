@@ -25,7 +25,7 @@ namespace KEDB.Controllers
             _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
         }
 
-        [Authorize(Roles = "kedb-super, kedb-read")]
+        // [Authorize(Roles = "kedb-super, kedb-read")]
         [HttpGet("myDepartment")]
         public async Task<ActionResult> GetEmployees()
         {

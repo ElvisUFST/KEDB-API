@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProfilController : ControllerBase
@@ -24,7 +24,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Profil
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Profil>>> GetProfiler()
         {
@@ -34,7 +34,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Profil/5
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{id}")]
         public async Task<ActionResult<Profil>> GetProfil(int id)
         {
@@ -49,7 +49,7 @@ namespace KEDB.Controllers
         }
 
         // PUT: api/Profil/5
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProfil(int id, Profil profil)
         {

@@ -10,7 +10,7 @@ using System.Linq;
 namespace KEDB.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize(Roles = "kedb-super, kedb-read")]
+    // [Authorize(Roles = "kedb-super, kedb-read")]
     [ApiController]
     public class StatistikOverblikController : ControllerBase
     {

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class RubrikTypeController : ControllerBase
@@ -24,7 +24,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/RubrikType
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<RubrikType>>> GetRubrikTyper()
         {
@@ -34,7 +34,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/RubrikType/5
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{id}")]
         public async Task<ActionResult<RubrikType>> GetRubrikType(int id)
         {
@@ -49,7 +49,7 @@ namespace KEDB.Controllers
         }
 
         // PUT: api/RubrikType/5
-        [Authorize(Roles = "kedb-super, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-write")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateRubrtikType(int id, RubrikType rubrikType)
         {
@@ -71,7 +71,7 @@ namespace KEDB.Controllers
         }
 
         // POST: api/RubrikType
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPost]
         public async Task<ActionResult<RubrikType>> CreateRubrikType(RubrikType rubrikType)
         {

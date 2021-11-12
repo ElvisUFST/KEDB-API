@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ToldrapportTransportmiddelController : ControllerBase
@@ -24,7 +24,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/ToldrapportTransportmiddel
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ToldrapportTransportmiddel>>> GetToldrapportTransportmiddeler()
         {
@@ -34,7 +34,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/ToldrapportTransportmiddel/5
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{id}")]
         public async Task<ActionResult<ToldrapportTransportmiddel>> GetToldrapportTransportmiddel(int id)
         {
@@ -49,7 +49,7 @@ namespace KEDB.Controllers
         }
 
         // PUT: api/ToldrapportTransportmiddel/5
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateToldrapportTransportmiddel(int id, ToldrapportTransportmiddel toldrapportTransportmiddel)
         {
@@ -71,7 +71,7 @@ namespace KEDB.Controllers
         }
 
         // POST: api/ToldrapportTransportmiddel
-        [Authorize(Roles = "kedb-super")]
+        // [Authorize(Roles = "kedb-super")]
         [HttpPost]
         public async Task<ActionResult<ToldrapportTransportmiddel>> CreateToldrapportTransportmiddel(ToldrapportTransportmiddel toldrapportTransportmiddel)
         {

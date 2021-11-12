@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    //[Authorize]
+    // [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class RubrikController : ControllerBase
@@ -21,7 +21,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Rubrik
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Rubrik>>> GetRubrikker()
         {
@@ -31,7 +31,7 @@ namespace KEDB.Controllers
         }
 
         // GET: api/Rubrik/5
-        [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-read, kedb-write")]
         [HttpGet("{id}")]
         public async Task<ActionResult<Rubrik>> GetRubrik(int id)
         {
@@ -46,7 +46,7 @@ namespace KEDB.Controllers
         }
 
         // PUT: api/Rubrik/5
-        [Authorize(Roles = "kedb-super, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-write")]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateRubrik(int id, Rubrik rubrik)
         {
@@ -63,7 +63,7 @@ namespace KEDB.Controllers
         //Der må ikke findes Create/delete af rubrikker. Dette skal ikke være muligt.
 
         // PUT: api/Rubrik/5
-        [Authorize(Roles = "kedb-super, kedb-write")]
+        // [Authorize(Roles = "kedb-super, kedb-write")]
         [HttpPut("Fejltekst/{rubrikId}/{fejltekstId}")]
         public async Task<IActionResult> UpdateRubrikValgtFejl(int rubrikId, int fejltekstId, RubrikValgtFejl rubrikValgtFejl)
         {
@@ -78,7 +78,7 @@ namespace KEDB.Controllers
         }
 
         // POST: api/Rubrik/Fejltekst
-        //[Authorize(Roles="kedb-super, kedb-write")]
+        // [Authorize(Roles="kedb-super, kedb-write")]
         [HttpPost("Fejltekst")]
         public async Task<ActionResult<RubrikValgtFejl>> CreateRubrikValgtFejl(RubrikValgtFejl rubrikValgtFejl)
         {
@@ -88,7 +88,7 @@ namespace KEDB.Controllers
         }
 
         // DELETE: api/Rubrik/Fejltekst/5/5
-        //[Authorize(Roles="kedb-super, kedb-write")]
+        // [Authorize(Roles="kedb-super, kedb-write")]
         [HttpDelete("Fejltekst/{rubrikId}/{fejltekstId}")]
         public async Task<IActionResult> DeleteRubrikValgtFejl(int rubrikId, int fejltekstId)
         {

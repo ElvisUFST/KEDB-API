@@ -1,4 +1,3 @@
-using KEDB.Attributes;
 using KEDB.Data.Interface;
 using KEDB_DataParser;
 using Microsoft.AspNetCore.Http;
@@ -8,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace KEDB.Controllers
 {
-    [ApiKey]
     [Route("data")]
     [ApiController]
     public class DataUploadController : ControllerBase
