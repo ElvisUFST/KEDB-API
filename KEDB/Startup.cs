@@ -58,7 +58,7 @@ namespace KEDB
             services.AddScoped<IProfilRepository, ProfilRepository>();
             services.AddScoped<IFejltekstRepository, FejltekstRepository>();
 
-            services.AddScoped<GraphServiceClient>(_ => GraphServiceClientFactory.Create(Configuration["AzureAd:ClientId"], Configuration["AzureAd:TenantId"], Configuration["AzureAd:ClientSecret"]));
+            //services.AddScoped<GraphServiceClient>(_ => GraphServiceClientFactory.Create(Configuration["AzureAd:ClientId"], Configuration["AzureAd:TenantId"], Configuration["AzureAd:ClientSecret"]));
             services.AddScoped<IReportService, ReportService>();
             services.AddSingleton<IConfiguration>(Configuration);
 
