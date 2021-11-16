@@ -62,7 +62,11 @@ namespace KEDB
             services.AddScoped<IReportService, ReportService>();
             services.AddSingleton<IConfiguration>(Configuration);
 
+            /* services.AddSingleton<IAuditLog, AzureEventHubAuditLog>(
+               _ => new AzureEventHubAuditLog(Configuration["ConnectionStrings:AzureEventHubAuditLog"])); */
+
             services.AddSingleton<IAuditLog, AzureEventHubAuditLog>();
+
             services.AddControllers();
 
             services.AddAutoMapper(typeof(Startup).Assembly);

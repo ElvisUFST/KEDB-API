@@ -48,6 +48,9 @@ namespace KEDB.Audit
             }
 
             var json = JsonSerializer.Serialize(userAction, serializationOptions);
+
+           /* var data = new EventData(System.Text.Encoding.UTF8.GetBytes(json));
+            await eventHubClient.SendAsync(new[] { data }); */
         }
     }
 
