@@ -28,6 +28,7 @@
 		<PackageReference Include="System.Xml.XDocument" Version="4.3.0" />
 	</ItemGroup>
 	<ItemGroup>
+		<Folder Include="Migrations\" />
 		<Folder Include="tmp\" />
 	</ItemGroup>
 	<ItemGroup>
